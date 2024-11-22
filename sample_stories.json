@@ -1,0 +1,40 @@
+{
+  "epics": [
+    {
+      "summary": "User Authentication System",
+      "description": "Implement a secure user authentication system with login, registration, and password recovery",
+      "stories": [
+        {
+          "summary": "User Registration",
+          "description": "Users should be able to create an account with email and password"
+        },
+        {
+          "summary": "User Login",
+          "description": "Users should be able to log in with their credentials"
+        },
+        {
+          "summary": "Password Recovery",
+          "description": "Users should be able to reset their password via email"
+        }
+      ]
+    },
+    {
+      "summary": "User Profile Management",
+      "description": "Allow users to manage their profile information and preferences",
+      "stories": [
+        {
+          "summary": "Edit Profile",
+          "description": "Users should be able to update their profile information"
+        },
+        {
+          "summary": "Change Password",
+          "description": "Users should be able to change their password while logged in"
+        },
+        {
+          "summary": "Profile Picture",
+          "description": "Users should be able to upload and update their profile picture"
+        }
+      ]
+    }
+  ]
+}
