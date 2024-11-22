@@ -1,0 +1,13 @@
+# Jira Configuration File
+# To get the correct issue type IDs for your project, run:
+# python jira_importer.py config.yaml --metadata
+
+jira:
+  url: your-instance.atlassian.net  # Your Jira instance URL (e.g., mycompany.atlassian.net)
+  username: your-email@example.com   # Your Jira email
+  api_token: your-api-token         # Your Jira API token (generate from Atlassian account settings)
+  project_key: PROJ                 # Your project key (e.g., PROJ, shown in Jira project settings)
+  # Issue type IDs - Get these by running the metadata command
+  # The IDs below are examples, your actual IDs will likely be different
+  epic_type_id: "10002"            # Epic issue type ID (get from --metadata output)
+  story_type_id: "10001"           # Story/Task issue type ID (get from --metadata output)
