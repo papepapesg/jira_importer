@@ -1,5 +1,11 @@
 # Jira Story Import Automation
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Python 3.6+](https://img.shields.io/badge/python-3.6+-blue.svg)](https://www.python.org/downloads/)
+[![PyPI version](https://badge.fury.io/py/atlassian-python-api.svg)](https://badge.fury.io/py/atlassian-python-api)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/papepapesg/jira_importer/graphs/commit-activity)
+[![GitHub issues](https://img.shields.io/github/issues/papepapesg/jira_importer.svg)](https://github.com/papepapesg/jira_importer/issues/)
+
 A Python-based tool for automating the import of epics and user stories into Jira projects.
 
 ## Features
